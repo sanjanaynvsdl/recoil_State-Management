@@ -1,6 +1,6 @@
 import { useRecoilValueLoadable } from "recoil";
 import { CiShoppingCart } from "react-icons/ci";
-import "../App.css";
+import "../../App.css"
 import CartComp from "../cartComp";
 import { cartItemsAtom, wishListItemsFamily } from "../../Store/ItemsState";
 import {Link} from "react-router-dom"

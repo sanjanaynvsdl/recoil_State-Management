@@ -27,7 +27,7 @@ function TotalPayment() {
                 <br></br>
                 <hr></hr>
                 <br></br>
-                <button className="totalbtn" onClick={()=> alert("Thankyou for purchasing!")}>Proceed to Buy</button>
+                <button className="totalbtn" onClick={()=> alert("Thankyou for purchasing!👀🤍")}>Proceed to Buy</button>
             </div>
         </div>
     )

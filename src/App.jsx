@@ -1,8 +1,8 @@
 import Layout from "./Components/Layout";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import HomePage from "./Components/HomePage"
+import HomePage from "./Components/Pages/HomePage"
 import { RecoilRoot } from "recoil";
-import WishlistPage from "./Components/WishListPage";
+import WishlistPage from "./Components/Pages/WishListPage";
 import CartPage from "./Components/Pages/CartPage"
 function App() {
 

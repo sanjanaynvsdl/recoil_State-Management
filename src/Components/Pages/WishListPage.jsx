@@ -1,7 +1,7 @@
 import { useRecoilValue, useRecoilValueLoadable } from "recoil";
-import { wishlistAtom } from "../Store/ItemsState";
-import WishListComp from "./wishListComp";
-import "../App.css";
+import { wishlistAtom } from "../../Store/ItemsState";
+import WishListComp from "../WishListComp";
+import "../../App.css"
 import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 

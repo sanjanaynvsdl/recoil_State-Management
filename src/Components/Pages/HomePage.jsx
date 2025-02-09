@@ -1,6 +1,6 @@
-import "../App.css"
-import CardComponent from "./CardComponent";
-import {  ItemsAtom } from "../Store/ItemsState";
+import "../../App.css"
+import CardComponent from "../CardComponent";
+import {  ItemsAtom } from "../../Store/ItemsState";
 import { useRecoilValue, useRecoilValueLoadable } from "recoil";
 function HomePage() {
 
