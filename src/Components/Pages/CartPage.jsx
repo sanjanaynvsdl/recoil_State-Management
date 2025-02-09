@@ -1,7 +1,7 @@
 import { useRecoilValueLoadable } from "recoil";
 import { CiShoppingCart } from "react-icons/ci";
 import "../../App.css"
-import CartComp from "../cartComp";
+import CartComp from "../CartComp";
 import { cartItemsAtom, wishListItemsFamily } from "../../Store/ItemsState";
 import {Link} from "react-router-dom"
 import TotalPayment from "../TotalPayment"
